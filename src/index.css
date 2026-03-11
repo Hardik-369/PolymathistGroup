@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-bg: #000000;
+  --color-primary-accent: #9929EA;
+  --color-secondary-accent: #FF5FCF;
+  --color-highlight-accent: #FAEB92;
+
+  --font-heading: "Orbitron", sans-serif;
+  --font-body: "Space Grotesk", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-primary-bg text-white font-body overflow-x-hidden antialiased;
+    background-color: var(--color-primary-bg);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading tracking-wider;
+  }
+}
+
+@layer utilities {
+  .text-glow-primary {
+    text-shadow: 0 0 20px rgba(153, 41, 234, 0.6);
+  }
+  .text-glow-secondary {
+    text-shadow: 0 0 20px rgba(255, 95, 207, 0.6);
+  }
+  .text-glow-highlight {
+    text-shadow: 0 0 20px rgba(250, 235, 146, 0.6);
+  }
+  
+  .box-glow-primary {
+    box-shadow: 0 0 30px rgba(153, 41, 234, 0.3);
+  }
+  .box-glow-secondary {
+    box-shadow: 0 0 30px rgba(255, 95, 207, 0.3);
+  }
+
+  .glass-panel {
+    @apply bg-white/5 backdrop-blur-md border border-white/10;
+  }
+
+  .neon-border {
+    position: relative;
+  }
+  .neon-border::before {
+    content: '';
+    position: absolute;
+    inset: -2px;
+    background: linear-gradient(45deg, var(--color-primary-accent), var(--color-secondary-accent));
+    z-index: -1;
+    border-radius: inherit;
+    filter: blur(8px);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .neon-border:hover::before {
+    opacity: 1;
+  }
+
+  /* Hide scrollbar for horizontal scroll containers */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+/* Noise overlay */
+.noise-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.03;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
