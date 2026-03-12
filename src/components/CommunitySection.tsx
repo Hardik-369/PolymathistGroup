@@ -35,7 +35,7 @@ const members = [
     name: "Shreeyash Taware", 
     role: "Web3 Engineer", 
     skills: "Smart Contracts", 
-    avatar: "https://picsum.photos/seed/elena_portrait/800/1200",
+    avatar: "/images/shreeyash.png",
     color: "#FF00AA",
     socials: { github: "https://github.com", instagram: "https://www.instagram.com/shreeyash___0007/", linkedin: "https://www.linkedin.com/in/shreeyash-taware-a47807291/" }
   },
