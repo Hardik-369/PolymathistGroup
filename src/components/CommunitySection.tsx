@@ -21,7 +21,7 @@ const members = [
     skills: "ML / DL ", 
     avatar: "/images/sai.png"",
     color: "#00FF88",
-    socials: { github: "https://github.com", instagram: "https://www.instagram.com/____sai_l____/", linkedin: "linkedin.com/in/sai-bhise-094b93251/" }
+    socials: { github: "https://github.com", instagram: "https://www.instagram.com/____sai_l____/", linkedin: "https://www.linkedin.com/in/sai-bhise-094b93251/" }
   },
   { 
     name: "Devdatta Salunkhe", 
