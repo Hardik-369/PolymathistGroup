@@ -11,7 +11,7 @@ const members = [
     name: "Hardik Kawale", 
     role: "Creative Dev", 
     skills: "Python/ AI / WebDev / Three.js", 
-    avatar: "https://kommodo.ai/i/ih54vaMlu0qa8kwk7EjS",
+    avatar: "/images/Hardik.png",
     color: "#FF0055",
     socials: { github: "https://github.com/Hardik-369", instagram: "https://www.instagram.com/__shadow__4444/", linkedin: "https://www.linkedin.com/in/hardikkawale" }
   },
