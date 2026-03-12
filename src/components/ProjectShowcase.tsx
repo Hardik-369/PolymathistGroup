@@ -11,7 +11,7 @@ const projects = [
     title: "ChurnX",
     client: "Createwiz",
     role: "API Dev, GenAI",
-    image: "/images/churnx",
+    image: "/images/churnx.png",
     color: "#FF0055",
     github: "https://github.com/Hardik-369/ChurnX",
     live: "https://github.com/Hardik-369/ChurnX"
@@ -20,7 +20,7 @@ const projects = [
     title: "StreesReducerAI",
     client: "Createwiz",
     role: "Frontend, Backend",
-    image: "/images/stress",
+    image: "/images/stress.png",
     color: "#00FF88",
     github: "https://github.com/Hardik-369/stress-reducer-ai",
     live: "https://stress-reducer-ai.vercel.app/"
@@ -29,7 +29,7 @@ const projects = [
     title: "Proffesional Job Board",
     client: "Createwiz",
     role: "Python, WebScraping",
-    image: "/images/job",
+    image: "/images/job.png",
     color: "#0000FF",
     github: "https://github.com/Hardik-369/Professional-Job-Board",
     live: "https://github.com/Hardik-369/Professional-Job-Board"
@@ -38,7 +38,7 @@ const projects = [
     title: "MarathiLang",
     client: "Group Devlopment",
     role: "Python",
-    image: "/images/marathi",
+    image: "/images/marathi.png",
     color: "#FF00AA",
     github: "https://github.com/Hardik-369/marathi-lang",
     live: "https://github.com/Hardik-369/marathi-lang"
@@ -47,7 +47,7 @@ const projects = [
     title: "WebSec",
     client: "Createwiz",
     role: "Python, Streamlit",
-    image: "/images/web",
+    image: "/images/web.png",
     color: "#FF8800",
     github: "https://github.com/Hardik-369/WebSec",
     live: "https://github.com/Hardik-369/WebSec"
