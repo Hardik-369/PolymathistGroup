@@ -8,49 +8,49 @@ gsap.registerPlugin(ScrollTrigger);
 
 const projects = [
   {
-    title: "Project Alpha",
-    client: "Nexus Corp",
-    role: "Creative Direction, WebGL",
-    image: "https://picsum.photos/seed/alpha/800/1000?blur=1",
+    title: "ChurnX",
+    client: "Createwiz",
+    role: "API Dev, GenAI",
+    image: "/images/churnx",
     color: "#FF0055",
-    github: "https://github.com",
-    live: "https://example.com"
+    github: "https://github.com/Hardik-369/ChurnX",
+    live: "https://github.com/Hardik-369/ChurnX"
   },
   {
-    title: "Quantum UI",
-    client: "Future Systems",
-    role: "Frontend, Motion Design",
-    image: "https://picsum.photos/seed/quantum/800/1000?blur=1",
+    title: "StreesReducerAI",
+    client: "Createwiz",
+    role: "Frontend, Backend",
+    image: "/images/stress",
     color: "#00FF88",
-    github: "https://github.com",
-    live: "https://example.com"
+    github: "https://github.com/Hardik-369/stress-reducer-ai",
+    live: "https://stress-reducer-ai.vercel.app/"
   },
   {
-    title: "Aura Finance",
-    client: "Aura Bank",
-    role: "UX/UI, React Native",
-    image: "https://picsum.photos/seed/aura/800/1000?blur=1",
+    title: "Proffesional Job Board",
+    client: "Createwiz",
+    role: "Python, WebScraping",
+    image: "/images/job",
     color: "#0000FF",
-    github: "https://github.com",
-    live: "https://example.com"
+    github: "https://github.com/Hardik-369/Professional-Job-Board",
+    live: "https://github.com/Hardik-369/Professional-Job-Board"
   },
   {
-    title: "Nova Studio",
-    client: "Nova Entertainment",
-    role: "Fullstack, Three.js",
-    image: "https://picsum.photos/seed/nova/800/1000?blur=1",
+    title: "MarathiLang",
+    client: "Group Devlopment",
+    role: "Python",
+    image: "/images/marathi",
     color: "#FF00AA",
-    github: "https://github.com",
-    live: "https://example.com"
+    github: "https://github.com/Hardik-369/marathi-lang",
+    live: "https://github.com/Hardik-369/marathi-lang"
   },
   {
-    title: "Echo Protocol",
-    client: "Echo Labs",
-    role: "Smart Contracts, Web3",
-    image: "https://picsum.photos/seed/echo/800/1000?blur=1",
+    title: "WebSec",
+    client: "Createwiz",
+    role: "Python, Streamlit",
+    image: "/images/web",
     color: "#FF8800",
-    github: "https://github.com",
-    live: "https://example.com"
+    github: "https://github.com/Hardik-369/WebSec",
+    live: "https://github.com/Hardik-369/WebSec"
   }
 ];
 
