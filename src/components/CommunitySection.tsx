@@ -37,7 +37,7 @@ const members = [
     skills: "Smart Contracts", 
     avatar: "https://picsum.photos/seed/elena_portrait/800/1200",
     color: "#FF00AA",
-    socials: { github: "https://github.com", instagram: "https://instagram.com", linkedin: "https://linkedin.com" }
+    socials: { github: "https://github.com", instagram: "https://www.instagram.com/shreeyash___0007/", linkedin: "linkedin.com/in/shreeyash-taware-a47807291/" }
   },
 ];
 
