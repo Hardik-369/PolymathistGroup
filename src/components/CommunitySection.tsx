@@ -16,23 +16,23 @@ const members = [
     socials: { github: "https://github.com/Hardik-369", instagram: "https://www.instagram.com/__shadow__4444/", linkedin: "https://www.linkedin.com/in/hardikkawale" }
   },
   { 
-    name: "Sarah Jenkins", 
-    role: "Art Director", 
-    skills: "Motion / UI", 
-    avatar: "https://picsum.photos/seed/sarah_portrait/800/1200",
+    name: "Sai Bhise", 
+    role: "AI Developer", 
+    skills: "ML / DL ", 
+    avatar: "/images/sai.png"",
     color: "#00FF88",
-    socials: { github: "https://github.com", instagram: "https://instagram.com", linkedin: "https://linkedin.com" }
+    socials: { github: "https://github.com", instagram: "https://www.instagram.com/____sai_l____/", linkedin: "linkedin.com/in/sai-bhise-094b93251/" }
   },
   { 
-    name: "David Kim", 
+    name: "Devdatta Salunkhe", 
     role: "Technical Lead", 
     skills: "Architecture", 
-    avatar: "https://picsum.photos/seed/david_portrait/800/1200",
+    avatar: "/images/deva.png",
     color: "#0000FF",
-    socials: { github: "https://github.com", instagram: "https://instagram.com", linkedin: "https://linkedin.com" }
+    socials: { github: "https://github.com", instagram: "https://www.instagram.com/_deva.13_/", linkedin: "https://www.linkedin.com/in/devdatta-salunkhe-a027282b2/" }
   },
   { 
-    name: "Elena Rossi", 
+    name: "Shreeyash Taware", 
     role: "Web3 Engineer", 
     skills: "Smart Contracts", 
     avatar: "https://picsum.photos/seed/elena_portrait/800/1200",
