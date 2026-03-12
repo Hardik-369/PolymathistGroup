@@ -8,12 +8,12 @@ gsap.registerPlugin(ScrollTrigger);
 
 const members = [
   { 
-    name: "Alex Chen", 
+    name: "Hardik Kawale", 
     role: "Creative Dev", 
-    skills: "WebGL / Three.js", 
-    avatar: "https://picsum.photos/seed/alex_portrait/800/1200",
+    skills: "Python/ AI / WebDev / Three.js", 
+    avatar: "https://kommodo.ai/i/ih54vaMlu0qa8kwk7EjS",
     color: "#FF0055",
-    socials: { github: "https://github.com", instagram: "https://instagram.com", linkedin: "https://linkedin.com" }
+    socials: { github: "https://github.com/Hardik-369", instagram: "https://www.instagram.com/__shadow__4444/", linkedin: "https://www.linkedin.com/in/hardikkawale" }
   },
   { 
     name: "Sarah Jenkins", 
