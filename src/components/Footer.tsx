@@ -108,10 +108,10 @@ export const Footer = () => {
             </div>
             <div className="flex flex-col gap-6">
               <h4 className="text-white/40 font-mono text-sm uppercase tracking-widest mb-2">Socials</h4>
-              <FooterLink href="#">GitHub</FooterLink>
-              <FooterLink href="#">Twitter / X</FooterLink>
-              <FooterLink href="#">LinkedIn</FooterLink>
-              <FooterLink href="#">Instagram</FooterLink>
+              <FooterLink href="https://github.com/POLYMATHISTTech">GitHub</FooterLink>
+              <FooterLink href="https://x.com/POLYMATHIST_1">Twitter / X</FooterLink>
+              <FooterLink href="https://linkedin.com/company/polymathist/">LinkedIn</FooterLink>
+              <FooterLink href="https://www.instagram.com/polymathist_tech/">Instagram</FooterLink>
             </div>
           </div>
         </div>
