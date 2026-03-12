@@ -17,7 +17,7 @@ const projects = [
     live: "https://github.com/Hardik-369/ChurnX"
   },
   {
-    title: "StreesReducerAI",
+    title: "Strees Reducer AI",
     client: "Createwiz",
     role: "Frontend, Backend",
     image: "/images/stress.png",
