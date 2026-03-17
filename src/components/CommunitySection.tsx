@@ -39,6 +39,14 @@ const members = [
     color: "#FF00AA",
     socials: { github: "https://github.com", instagram: "https://www.instagram.com/shreeyash___0007/", linkedin: "https://www.linkedin.com/in/shreeyash-taware-a47807291/" }
   },
+  { 
+    name: "Siddhi Mane", 
+    role: "App Developer", 
+    skills: "Java Programming", 
+    avatar: "/images/siddhi.png",
+    color: "#0000FF",
+    socials: { github: "https://github.com", instagram: "https://www.instagram.com/__siddhi.__09__/", linkedin: "https://www.linkedin.com/in/siddhi-mane-05b979244/" }
+  },
 ];
 
 export const CommunitySection = () => {
